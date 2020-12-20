@@ -1,3 +1,15 @@
+This is a work in progress, you will notice that Study Plan | HTML and Study Plan | CSS pages do not have any content.
+
+Make sure to check Contacts and Study Plan | Jave Script pages!
+
+I have used few templates for more "advanced" features like drop-down nav bar and split screen, but those were edited and are not 100% copy-paste replica. Besides I know how those features work now.
+
+Any feedback is highly appreciated!
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Denis-Li-20/01-Learning-JS/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
