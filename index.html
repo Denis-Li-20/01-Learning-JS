@@ -8,64 +8,119 @@
   </head>
   <body>
     <header>
-      <!-- Nav bar was copy-pasted to add a dropdown list -->
+      <!-- Adding navbar -->
       <nav>
       <div class="navbar">
-        <a href="/contact/contact.html">Contact</a>
-        
+        <a href="/contact/contact.html">Contact</a> <!-- Navbar is aligned to the right, therefore reversed order of the buttons -->
         <div class="dropdown">
-          <button class="dropbtn">Study Plan
-          <i class="fa fa-caret-down"></i>
+          <button class="dropbtn">Study Plan <!-- This is a dropdown button -->
           </button>
-          <div class="dropdown-content">
+          <div class="dropdown-content"> <!-- This is a dropdown content -->
             <a href="/plan/html.html">HTML</a>
             <a href="/plan/css.html">CSS</a>
             <a href="/plan/java-script.html">Java Script</a>
           </div>
         </div>
-        <a href="index.html">About Me</a>
+        <a href="index.html">About Me</a> <!-- Navbar is aligned to the right, therefore reversed order of the buttons -->
       </div>
       </nav>
-      <!-- Nav bar was copy-pasted to add a dropdown list -->
+      <!-- Adding navbar -->
     </header>
     
     <main>
+      <!-- Adding photo (with image class) width controlled from CSS -->
+      <img class="image" src="My-Photo.jpg">
+      <!-- Adding photo (with image class) width controlled from CSS -->
+      
       <h2 class="long-text">
         Hey! I'm Denis Li
       </h2>
 
       <!-- introduction -->
-      <p>
-        I am a mining consultant living in Denver, Colorado.
-      </p>
-      <p>
-        During my work in the mining industry I had used Python scripting for:
-        <ul>
-          <li>Regression tests</li>
-          <li>Data Managment</li>
-          <li>Haulage Optimization</li>
-          <li>FUN!</li>
-        </ul>
-      </p>
+      <article>
+        <p>
+          I am a mining consultant living in Denver, also known as "A Mile-High City".
+        </p>
+        <p>
+          During my work in the mining industry I had used Python scripting for:
+          <ul>
+            <li>Regression tests</li>
+            <li>Data Managment</li>
+            <li>Haulage Optimization</li>
+            <li>FUN!</li>
+          </ul>
+        </p>
+      </article>
       <!-- introduction -->
+
       <hr>
 
       <!-- few words about myself -->
-      <h2 class="long-text">
-        About Me
-      </h2>
-      
+      <article>
+        <h2>
+          About Me
+        </h2>
+        
+        <p>
+          Software engineering skills will allow me to bring my ideas to life, I'm so excited to start!
+        </p>
+        <p>
+          When I'm not working or studiyng (which doesn't happen too often) I enjoy playing computer games and watching TV shows.
+        </p>
+      </article>
+      <!-- few words about myself -->
+
+      <hr>
+
+      <!-- Extra infromation block to test tables and classes -->
+      <h3>
+        Additional information on this Webpage
+      </h3>
       <p>
-        Software engineering skills will allow me to bring my ideas to life, I'm so excited to start!
-      </p>
-      <p>
-        When I'm not working or studiyng (which doesn't happen too often) I enjoy playing computer games and watching TV shows.
+       I am planning to use this template later on in the course, right now I do not have the knowledge required to implement my vision for this webpage. Here is a short summary of the "features" used to build this webpage:
       </p>
 
-      <p class="long-text">
-        <a href="https://www.linkedin.com/in/denis-li-mining-engineer">Feel free to check my LinkedIn profile</a>
+      <!-- Using table to split data into 2 columns -->
+      <table width=100%>
+        <tr>
+          <th class="html">HTML</th>      <!-- Class used to customize HTML column apperance -->
+          <th class="css">CSS</th>        <!-- Class used to customize CSS column apperance -->
+        <tr>
+          <td class="html" width=50%>     <!-- Class used to customize HTML column apperance -->
+            <ol>
+              <li>Comments (short description)</li>
+              <li>Headers</li>
+              <li>Paragraphs</li>
+              <li>Classes</li>
+              <li>Hyperlinks</li>
+              <li>Dividers (Study Plan | Java Script</li>
+              <li>Navigation Bar</li>
+              <li>Buttons (Navigation Bar)</li>
+            </ol>
+          </td>
+          <td class="css" width=50%>       <!-- Class used to customize CSS column apperance -->
+            <ol>
+              <li>Fonts, including fallback fonts</li>
+              <li>Alignment</li>
+              <li>Margins (All Pages)</li>
+              <li>Colors (coolors set used)</li>
+              <li>Padding</li>
+              <li>Float</li>
+              <li>Overflow</li>
+              <li>Height</li>
+              <li>Width</li>
+              <li>Position</li>
+              <li>Borders</li>
+            </ol>
+          </td>
+        </tr>
+      <table>
+      <!-- Using table to split data into 2 columns -->
+      <p>
+        And a lot of other things! The list above is added for the sake of using the table 🙄
       </p>
-      <!-- few words about myself -->
+      <!-- Extra infromation block to test tables and classes -->
+
     </main>
     <script src="script.js"></script>
   </body>

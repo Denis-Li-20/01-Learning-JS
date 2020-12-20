@@ -1,7 +1,10 @@
+/* Adding separate control for Study Plan | Java Script */
+
+/* Customizing unordered list (no-bullets class) */
 ul.no-bullets {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+  list-style-type: none; /* Removing bullets */
+  padding: 0; /* Removing padding */
+  margin: 0; /* Removing margins */
 }
 
 /* Split the screen in half */
@@ -9,12 +12,11 @@ ul.no-bullets {
   height: 100%;
   width: 50%;
   position: fixed;
-  z-index: 1;
   top: 0;
   margin-top: 55px;
+  margin-left: 5px;
   overflow-x: hidden;
 }
-
 
 /* Control the left side */
 .left {
@@ -28,19 +30,5 @@ ul.no-bullets {
 .right {
   right: 0;
   width: 90%;
-}
-
-/* If you want the content centered horizontally and vertically */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
-}
-
-/* Style the image inside the centered container, if needed */
-.centered img {
-  width: 150px;
-  border-radius: 50%;
 }

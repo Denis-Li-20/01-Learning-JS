@@ -7,29 +7,66 @@ a8dadc
 457b9d
 1d3557
 */
-h1, h2, h3{
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
 
-nav{
-  text-align: right;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.long-text{
-  text-align: center;
-}
-main{
-  margin: 20%; 
-  margin-top: 5%;
-  font-family: Arial, Helvetica, sans-serif;
-}
+/* background color for the body of the webpage */
 body{
   background-color: #f1faee;
 }
 
+/* Adding margins (different margin-top) and fonts (including fallback fonts) */
+main{
+  margin: 30%; 
+  margin-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+/* Headers alignment should be different (centered) */
+h1, h2, h3{
+  text-align: center;
+}
+
+/* Customizing horizontal line */
+hr{
+  border: none green;
+  border-bottom: dashed green;
+  margin: 10%;
+}
+
+/* Since the table will contain only 2 columns - aligning to the same level (top) */
+td{
+  vertical-align:top;
+}
+
+/* Headers must be aligned to the center */
+th{
+  text-align: center;
+}
+
+.image{
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 10px;
+}
+
+/* customizing css column in the table using class*/
+.css{
+  color: #457b9d;
+}
+
+/* customizing html column in the table using class*/
+.html{
+  color: green;
+}
+
+
+/* !!!The below code was taken from w3schools.com, even though I have customized it - I didn't write it from scratch */
+nav{
+  text-align: right;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 /* Navbar container */
 .navbar {
