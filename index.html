@@ -29,7 +29,7 @@
     
     <main>
       <!-- Adding photo (with image class) width controlled from CSS -->
-      <img class="image" src="My-Photo.jpg">
+      <img class="image" src="My-Photo.jpg" alt="Image Not Found!">
       <!-- Adding photo (with image class) width controlled from CSS -->
       
       <h2 class="long-text">
@@ -81,12 +81,13 @@
       </p>
 
       <!-- Using table to split data into 2 columns -->
-      <table width=100%>
+      <table>
         <tr>
           <th class="html">HTML</th>      <!-- Class used to customize HTML column apperance -->
           <th class="css">CSS</th>        <!-- Class used to customize CSS column apperance -->
+        </tr>
         <tr>
-          <td class="html" width=50%>     <!-- Class used to customize HTML column apperance -->
+          <td class="html">     <!-- Class used to customize HTML column apperance -->
             <ol>
               <li>Comments (short description)</li>
               <li>Headers</li>
@@ -98,7 +99,7 @@
               <li>Buttons (Navigation Bar)</li>
             </ol>
           </td>
-          <td class="css" width=50%>       <!-- Class used to customize CSS column apperance -->
+          <td class="css">       <!-- Class used to customize CSS column apperance -->
             <ol>
               <li>Fonts, including fallback fonts</li>
               <li>Alignment</li>
@@ -114,7 +115,7 @@
             </ol>
           </td>
         </tr>
-      <table>
+      </table>
       <!-- Using table to split data into 2 columns -->
       <p>
         And a lot of other things! The list above is added for the sake of using the table 🙄
